@@ -7,7 +7,7 @@ const Services = () => {
     <div id="services" className='w-full px-[12%] py-10 scroll-mt-20'>
          <h4 className='text-center mb-2 text-lg font-Ovo'>What I Offer</h4>
          <h2 className='text-center text-5xl font-Ovo'>My Services</h2>
-         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'></p>
+         <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officia commodi placeat ipsa error aspernatur, laboriosam adipisci enim labore ullam? Minima dignissimos soluta explicabo, laborum consequuntur quasi neque ipsum nemo.</p>
 
          <div className='grid sm:auto-cols-[minmax(200px,1fr)] lg:grid-cols-4 gap-6 my-10'>
               {serviceData.map(({icon, title, description, link}, index)=>(

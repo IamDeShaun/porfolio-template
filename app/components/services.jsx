@@ -11,10 +11,10 @@ const Services = () => {
 
          <div className='grid sm:auto-cols-[minmax(200px,1fr)] lg:grid-cols-4 gap-6 my-10'>
               {serviceData.map(({icon, title, description, link}, index)=>(
-                <div key={index} className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-xl cursor-pointer hover:bg-blue-100 hover:-translate-y-1 duration-500'>
+                <div key={index} className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-xl cursor-pointer darkmodecardhover hover:bg-blue-100 hover:-translate-y-1 duration-500 darkmodecopy'>
                       <Image src={icon} alt='Icon Title' className='w-10' />
-                      <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
-                      <p className='text-sm text-gray-600 leading-5'>
+                      <h3 className='text-lg my-4 text-gray-700 darkmodecopy'>{title}</h3>
+                      <p className='darkmodecopy text-sm text-gray-600 leading-5'>
                         {description}
                       </p>
                       <a href={link} className='flex items-center gap-2 text-sm mt-5'>

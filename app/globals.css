@@ -2,6 +2,76 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+@theme {
+  --color-bgContrast: #f9f9f9;
+}
+
+@layer theme {
+  .dark {
+    background-color: #1F1B24;
+    color: #fff;
+  }
+}
+
 *{
   font-family: Outfit;
 }
+
+.dark .goaway {display:none;}
+
+.dark .darkshadowwhite {
+  background: transparent;
+}
+
+.dark ul.darktransparent {
+  background: transparent;
+}
+
+.dark nav a.darkbuttonborder {
+  color: #fff !important;
+}
+
+.dark .darkmobilemenu {
+  background: #1f1f1f;
+  color: #fff;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dark .darkresume {
+  color: #000;
+  background:#fff;
+}
+
+.dark .aboutcard:hover {
+  background:#000;
+}
+
+#about p {
+ color: #616161;
+}
+
+.dark h2 {
+  color: #fff;
+ }
+.dark .darkmodecopy {
+  color: #fff !important;
+}
+.dark .darkmodebtn {
+  background:#000;
+  color: #fff;
+}
+
+.dark .darkmodecardhover:hover {
+  background:#000 !important;
+}
+.dark h2.darkservicetext {
+  color: #616161;
+ }
+
+.dark .dark-text {color: #fff !important;}
+.dark li.aboutcard h3{color: #fff;}
+.dark .aboutcard p {color: #fff!important;}

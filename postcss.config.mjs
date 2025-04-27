@@ -1,4 +1,3 @@
-import { Outfit } from "next/font/google";
 
 const config = {
   plugins: ["@tailwindcss/postcss"],
@@ -9,11 +8,6 @@ const config = {
         darkHover: '#2a004a',
         darkTheme: '#11001F',
       },
-       fontFamily: {
-        Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "sans-serif"]
-      }
-    }
   }
 };
 

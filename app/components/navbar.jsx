@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, {useEffect, useRef, useState}  from 'react'
 
-const navbar = ({IsDark, setIsDark}) => {
+const Navbar = ({IsDark, setIsDark}) => {
     const [isScroll, setIsScroll] = useState(false)
     const sideMenuRef = useRef();
 
@@ -69,4 +69,4 @@ const navbar = ({IsDark, setIsDark}) => {
   )
 }
 
-export default navbar
+export default Navbar

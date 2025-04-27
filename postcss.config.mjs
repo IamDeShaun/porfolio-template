@@ -7,8 +7,8 @@ const config = {
         darkHover: '#2a004a',
         darkTheme: '#11001F',
       }
-    }
   }
+}
 };
 
 export default config;
